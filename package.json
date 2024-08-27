@@ -1,0 +1,19 @@
+{
+  "name": "movieapp",
+  "version": "1.0.0",
+  "description": "MOvie search website",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "prod": "nodemon main.js",
+    "dev": "node --watch main"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "request": "^2.88.2"
+  }
+}
